@@ -15,12 +15,12 @@
 ## Add meta data about your application
 golem::fill_desc(
   pkg_name = "shinyRobinsNest", # The Name of the package containing the App 
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App 
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App 
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional) 
+  pkg_title = "Robins Nest", # The Title of the package containing the App 
+  pkg_description = "Golem Package for Robins Nest App", # The Description of the package containing the App 
+  author_first_name = "Ryan", # Your First Name
+  author_last_name = "Johnson", # Your Last Name
+  author_email = "rtjohnson1206@gmail.com", # Your Email
+  repo_url = "https://github.com/rtjohnson12/Robins-Nest" # The URL of the GitHub Repo (optional) 
 )     
 
 ## Set {golem} options ----
@@ -30,9 +30,9 @@ golem::set_golem_options()
 ## See ?usethis for more information
 usethis::use_mit_license( name = "Golem User" )  # You can set another license here
 usethis::use_readme_rmd( open = FALSE )
-usethis::use_code_of_conduct()
+# usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
-usethis::use_news_md( open = FALSE )
+# usethis::use_news_md( open = FALSE )
 
 ## Use git ----
 usethis::use_git()
