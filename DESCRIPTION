@@ -1,13 +1,8 @@
 Package: shinyRobinsNest
-Title: An Amazing Shiny App
+Title: Robins Nest
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person('Ryan', 'Johnson', email = 'rtjohnson1206@gmail.com', role = c('cre', 'aut'))
+Description: Golem Package for Robins Nest App
 Imports: 
     config,
     golem,
@@ -17,3 +12,6 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+URL: https://github.com/rtjohnson12/Robins-Nest
+BugReports: https://github.com/rtjohnson12/Robins-Nest/issues
+License: MIT + file LICENSE
